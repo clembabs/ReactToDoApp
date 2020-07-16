@@ -34,7 +34,7 @@ const Header = () => {
             <Link
               variant="button"
               color="inherit"
-              href="home"
+              href="/"
               className={classes.link}
             >
               Home
@@ -42,7 +42,7 @@ const Header = () => {
             <Link
               variant="button"
               color="inherit"
-              href="about"
+              href="/about"
               className={classes.link}
             >
               About
