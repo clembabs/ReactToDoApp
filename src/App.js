@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Todos from "./components/Todos";
-import "./App.css";
+// import "./App.css";
 import AddTodo from "./components/AddTodo";
 import Header from "./components/layout/Header";
 //import {v4 as uuid} from "uuid";
