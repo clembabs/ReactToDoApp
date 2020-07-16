@@ -32,7 +32,7 @@ export class App extends Component {
 
   componentDidMount() {
     axios
-      .get("https://jsonplaceholder.typicode.com/todos?_limit=10")
+      .get("https://jsonplaceholder.typicode.com/todos?_limit=5")
       .then((res) => this.setState({ todos: res.data }));
   }
   //Toggle
