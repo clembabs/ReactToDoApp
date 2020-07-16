@@ -2,14 +2,10 @@ import React, { Component } from 'react'
 import TodoItem from './TodoItem'
 import PropTypes from 'prop-types';
 import { Paper,List } from '@material-ui/core';
-import Spinner from './layout/Spinner';
 
 export class Todos extends Component {
   render() {
-    if(this.props.loading) {
-      return <Spinner />
-    }
-    else {
+   
     return this.props.todos.length > 0 &&  (
       <Paper style={{ margin: 16 }}>
       <List style={{ overflow: 'scroll' }}>
@@ -21,7 +17,6 @@ export class Todos extends Component {
    
     
     )
-      }
   }
 }
 
@@ -29,7 +24,7 @@ Todos.propTypes = {
     todos: PropTypes.array.isRequired, 
     markBox: PropTypes.func.isRequired,
     delTodo: PropTypes.func.isRequired,
-    loading: PropTypes.bool
+    
 }
 
 export default Todos
