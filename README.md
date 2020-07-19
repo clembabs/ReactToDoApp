@@ -1,4 +1,4 @@
-# Movie_finder
+# TodoApp
 
 A React Material UI project.
 
